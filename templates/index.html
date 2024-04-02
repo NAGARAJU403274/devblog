@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url("C:\Users\pulli\OneDrive\Desktop\mahesh-mv-OVBTaeB0TCc-unsplash.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Form</title>
+</head>
+<body>
+     <form  method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="email"><br><br>
+        
+        <button>sumbit</button>
+    </form>
+    <h1>name:{{ name }}</h1>
+    
+</body>
+</html>
